@@ -1,5 +1,5 @@
-## Project Name: Knowledge World
-### Project Live Site : https://playful-kelpie-116d8a.netlify.app/
+## Project Name: Testify
+
 ### Technologies:
    1. React 18.2.0
    2. React Router
@@ -11,7 +11,7 @@
 To run this project, install it locally using npm:
 
 ```
-$ cd ../knowledge-world
+$ cd ../testify
 $ npm install
 $ npm start
 ```

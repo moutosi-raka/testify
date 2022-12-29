@@ -6,10 +6,10 @@ const Login = () => {
     return (
         <div className="wrapper">
         <div className="logo-login">
-            <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt=""/>
+            <img src="https://www.freepnglogos.com/uploads/lamp/lamp-logo-mpada-luz-brilho-imagens-tis-pixabay-0.png" alt=""/>
         </div>
         <div className="text-center name">
-        <h4 className=''> Knowledge World</h4>
+        <h4 className=''>Testify</h4>
         </div>
         <form className="p-3 mt-3">
             <div className="form-field">

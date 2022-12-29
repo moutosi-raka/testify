@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div>
         <NavLink className="logo" to="/">
-          Knowledge World
+         Testify
         </NavLink>
       </div>
       <div className={`nav-link ${open ? 'top-4' : 'top-120'}`}>

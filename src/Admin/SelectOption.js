@@ -5,13 +5,9 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 
 
-const SelectOption = () => {
-  let compo;
-  let optionValue;
-  const optionSelect = (event) => {
-     optionValue = event.target.value;
-    console.log(optionValue);
-  };
+const SelectOption = ({optionSelect, index}) => {
+
+  
   return (
     <div>
       <Row className="my-3 w-50">
@@ -21,7 +17,7 @@ const SelectOption = () => {
             label="Select Your Question option"
           >
             <Form.Select
-              onInput={optionSelect}
+              onInput={(event)=>optionSelect(event, index)}
               aria-label="Floating label select example"
             >
               <option>Open this select menu</option>
@@ -33,7 +29,7 @@ const SelectOption = () => {
         </Col>
       </Row>
 
-      <p>kllsxzx</p>
+     
     </div>
   );
 };

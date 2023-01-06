@@ -1,15 +1,14 @@
 import React from "react";
 import Assessment from "./Assessment";
-import SelectOption from "./SelectOption";
+
 
 const Admin = () => {
 
 
   return (
-    <div className="container">
+    <div className="container my-5">
      
      <Assessment></Assessment>
-     <SelectOption></SelectOption>
     
     </div>
   );

@@ -9,6 +9,8 @@ import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Admin from './Admin/Admin';
+import AssessmentsList from './components/AssessmentsList/AssessmentsList';
+import SubmissionList from './components/SubmissionList/SubmissionList';
 
 
 function App() {
@@ -33,6 +35,14 @@ function App() {
         {
           path: 'signUp',
           element: <SignUp></SignUp>
+        },
+        {
+          path: 'assessments',
+          element: <AssessmentsList></AssessmentsList>
+        },
+        {
+          path: 'submission',
+          element: <SubmissionList></SubmissionList>
         },
 
         {
